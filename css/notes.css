@@ -1,0 +1,132 @@
+/*  GLOBAL  */
+
+body {
+    font: 20px arial, sans-serif;
+    font-weight: bold;
+    text-shadow: 2px 2px #000000;
+    background-color: grey;
+}
+
+/* Header */
+
+.header {
+    color: white;
+    background-color: #111;
+    display: inline-block;
+    width: 100%;
+}
+
+.row.header {
+    margin-top: -8%;
+    height: 8%;
+}
+
+#navOpen {
+    width: 30px;
+    margin-left: 1%;
+    font-size: 30px;
+}
+
+#title {
+    width: 85px;
+    margin-top: 4%;
+    margin-left: 0;
+}
+
+#searchBtn {
+    width: 22px;
+    margin-left: 70%;
+    color: white;
+}
+
+
+/* Menu */
+
+#mainNav {
+  height: 100%;
+  width: 100%;
+  position: fixed;
+  z-index: 4;
+  top: 0;
+  left: 0;
+  background-color: #111;
+  overflow-x: hidden;
+  transition: 0.5s;
+  padding-top: 60px;
+  text-align: center;
+}
+
+#mainNav a {
+  padding: 8px;
+  text-decoration: none;
+  font-size: 25px;
+  color: #818181;
+  display: block;
+  transition: 0.3s;
+
+}
+
+#mainNav a:hover{
+  color: #f1f1f1;
+}
+
+
+
+/* Input Items */
+
+#addItem, #addNote {
+    width: 99%;
+    height: 50%;
+    background-color: white;
+    bottom: 0;
+    text-align: center;
+    font-size: 20px;
+    font-weight: 200;
+    text-shadow: none;
+}
+
+/* Add Notes */
+#notes {
+    display: none;
+}
+
+.noteSpan,tr {
+    width: 100%;
+    float: left;
+    background-color: white;
+    font-size: 20px;
+    font-weight: 200;
+    text-shadow: none;
+    border-bottom-style: solid;
+    border-width: 1px;
+}
+
+
+/*  Checklist */
+
+#items {
+    display: none;
+    color: white;
+}
+
+.item {
+    list-style: none;
+    margin-left: -40px;
+    margin-bottom: 10px;
+}
+
+p.text {
+    display: inline;
+    margin-left: 10px;
+}
+
+.line_through {
+    text-decoration: line-through;
+}
+
+.fa-trash-alt {
+    position: absolute;
+    bottom: 10px;
+    margin-left: 38%;
+    font-size: 38px;
+}

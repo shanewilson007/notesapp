@@ -1,0 +1,21 @@
+{
+  "name": "NotesApp",
+  "version": "1.0.0",
+  "description": "",
+  "main": "main.js",
+  "scripts": {
+    "start": "electron .",
+    "build": "electron-packager . NotesApp"
+  },
+  "author": "Shane Wilson",
+  "license": "ISC",
+  "devDependencies": {
+    "electron": "^4.0.6",
+    "electron-packager": "^13.1.1"
+  },
+  "dependencies": {
+    "bootstrap": "^4.4.1",
+    "electron-reload": "^1.4.0",
+    "jquery": "^3.3.1"
+  }
+}

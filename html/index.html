@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="UTF-8">
+    <title>Notes</title>
+    <link rel="stylesheet" href="../css/notes.css">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.7.0/css/all.css" 
+    integrity="sha384-lZN37f5QGtY3VHgisS14W3ExzMWZxybE1SJSEsQp9S+oqd12jhcu+A56Ebc1zFSJ" 
+    crossorigin="anonymous">
+  </head>
+
+  <body>
+
+    <div class="row header">
+
+        <div class="column header" id="navOpen">
+            <i class="fas fa-align-justify"></i>
+        </div>
+
+    </div>
+
+    <div id="mainNav">
+        <i class="searchBtn" class="fa fa-search" onclick="search()"></i>
+        <a class="notes" href="#">Notes</a>
+        <a class="checklist" href="#">Checklist</a>
+        <a class="calendar" href="#">Calendar</a>
+        <a class="themes" href="#">Themes</a>
+        <a class="settings" href="#">Settings</a>
+
+    </div>
+
+    <div class="pages">
+    
+      <div id="notes">
+        <input id="addNote" placeholder="Add Note" maxlength="80">
+          <div id="newNote"></div>
+        </input>
+      </div>
+   
+      <div id="items">
+        <input id="addItem" placeholder="Add Item" maxlength="80"></input>
+        <ul id="newItem"</ul>
+        <i class="fas fa-trash-alt"></i>
+      </div>
+
+    </div>
+
+  </body>
+
+  <!-- Jquery -->
+    <script>
+    window.$ = window.jQuery = require("jquery");
+    </script>
+    <script src="../js/main.js"></script>
+    <script src="../js/notes.js"></script>
+    <script src="../js/checklist.js"></script>
+</html>
